@@ -69,7 +69,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(CodeAssembly, MKS Robin Nano 1.2 20220116" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(CodeAssembly, MKS Robin Nano 1.2" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -139,7 +139,6 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  // #define MOTHERBOARD BOARD_MKS_ROBIN_NANO_V1_3_F4
   #define MOTHERBOARD BOARD_MKS_ROBIN_NANO
 #endif
 
@@ -148,7 +147,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-#define MACHINE_UUID "b3d063f0-7ded-470b-bf15-04350651e1ca"
+#define MACHINE_UUID "7670d13b-7aa1-48f7-af1f-ba847c1ad9c1"
 
 /**
  * Define the number of coordinated linear axes.
@@ -2753,7 +2752,7 @@
  *   TFT_ROTATE_270, TFT_ROTATE_270_MIRROR_X, TFT_ROTATE_270_MIRROR_Y,
  *   TFT_MIRROR_X, TFT_MIRROR_Y, TFT_NO_ROTATION
  */
-// #define TFT_ROTATION TFT_ROTATE_180
+#define TFT_ROTATION TFT_ROTATE_180
 
 //=============================================================================
 //============================  Other Controllers  ============================
